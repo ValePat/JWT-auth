@@ -1,0 +1,31 @@
+
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
+
+      {
+        "version": "0.2.0",
+        "configurations": [
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch with nodemon",
+            "runtimeExecutable": "nodemon",
+            "program": "${workspaceFolder}/server.js",
+            "restart": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "env": {
+                "DB_HOST": "sql7.freesqldatabase.com",
+                "DB_USER": "sql7715739",
+                "DB_PASSWORD": "T2jcFFSa9v",
+                "DB_NAME": "sql7715739",
+                "DB_PORT": "3306",
+                "ACCESS_TOKEN_SECRET": "095fb116d17314fde923b1016aa2104a96278a34b87f2c85fb2ed73db444f3e0c6d1e18949d17c0e33cfb3cba18253291be281408e67ccd705c90a88ac938624",
+                "REFRESH_TOKEN_SECRET": "78ce30ed52eb09d4506b08545cdc6efc0eec473e6215f92ac80057838b5a28b91d8c4d8dc5f14d556b6f0f0c5cde73ed354e415aa3906dee7fad75f4f9f8354f",
+              },
+          }
+        ]
+      }
+      
